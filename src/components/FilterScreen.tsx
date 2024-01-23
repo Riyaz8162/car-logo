@@ -2,8 +2,8 @@ import React from 'react';
 import { Box, } from '@mui/material';
 import { IRootState } from '../redux/store';
 import {  useSelector } from 'react-redux';
-import CarSearchForm from './CarSearchForm';
-import ContextProvider from '../ContextAPI/ContextProvider';
+import CarSearchForm from '../screens/CarSearchForm';
+import ContextProvider from '../contextAPI/ContextProvider';
 
 const FilterScreen: React.FC = () => {
 	const filteredData = useSelector((state: IRootState) => state.form.filteredData);

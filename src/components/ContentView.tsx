@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import ContextProvider from "../ContextAPI/ContextProvider";
+import ContextProvider from "../contextAPI/ContextProvider";
 import { useSelector } from "react-redux";
 import { IRootState } from "../redux/store";
 
